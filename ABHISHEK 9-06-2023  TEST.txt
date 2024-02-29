@@ -1,0 +1,132 @@
+QUESTION 1
+
+//5th question.
+package com.codingage.java.test;
+
+import jdk.dynalink.beans.StaticClass;
+
+public class Student {
+   static String name;      int rollNum;  static double marks;
+
+    public static void main(String[] args) {
+        Student s1=new Student();
+        int i=1;
+        Student.name="Abhishek";
+        s1.rollNum=1;
+        s1.marks=78.5;
+        System.out.println(i+" Student name: "+Student.name+"\nRoll Number: "+s1.rollNum+"\nTotal marks: "+s1.marks);
+        Student s2=new Student();
+        Student.name="Ravi";
+        s2.rollNum=2;
+
+        s2.marks=78.5;
+        System.out.println((i+1)+" Student name: "+Student.name+"\nRoll Number: "+s2.rollNum+"\nTotal marks: "+s2.marks);
+        Student s3=new Student();
+        Student.name="Avinash";
+
+        s3.rollNum=3;
+        s3.marks=90.5;
+        System.out.println((i+2)+" Student name: "+Student.name+"\nRoll Number: "+s3.rollNum+"\nTotal marks: "+s3.marks);
+
+        Student s4=new Student();
+        Student.name="Atul";
+        s4.rollNum=4;
+        s4.marks=85.8;
+        System.out.println((i+3)+" Student name: "+Student.name+"\nRoll Number: "+s4.rollNum+"\nTotal marks: "+s4.marks);
+
+    }
+}
+ QUESTION 2
+
+//2nd question.
+package com.codingage.java.test;
+
+import java.security.PublicKey;
+
+public class Rectangle {
+    int l;   int w;
+    int area(int l,int w){
+         return l*w;
+    }
+    void perimeter(int l,int w){
+        System.out.println("Area of Perimeter: "+((l+w)*2));
+    }
+    public static void main(String[] args){
+        Rectangle r=new Rectangle();
+        r.l=4;   r.w=8;
+
+        System.out.println("Area of Rectangle: "+ r.area(r.l,r.w));
+        r.perimeter(r.l=4,  r.w=8);
+    }
+}
+
+QUESTION 4
+
+//4th question.
+package com.codingage.java.test;
+
+public class Car {
+    String make; String model;  int year;
+    void display(String a,String b,int y){
+        System.out.println("Company Name :"+a+"\nModel name: "+b+"\nDate of Manufacture: "+y);
+    }
+    public static void main(String[] args){
+        //ob1
+        Car bmw=new Car();
+        bmw.make="BMW";
+        bmw.model="BMW";
+        bmw.year=2020;
+        bmw.display( bmw.make,bmw.model,bmw.year);
+        //ob2
+        Car audi=new Car();
+        audi.make="Volkswagen";
+        audi.model="AUDI";
+        audi.year=2022;
+        bmw.display(audi.make,audi.model,audi.year);
+
+    }
+}
+
+QUESTION 5
+
+//5th question.
+package com.codingage.java.test;
+
+import jdk.dynalink.beans.StaticClass;
+
+public class Student {
+   static String name;      int rollNum;  static double marks;
+
+    public static void main(String[] args) {
+        Student s1=new Student();
+        int i=1;
+        Student.name="Abhishek";
+        s1.rollNum=1;
+        s1.marks=78.5;
+        System.out.println(i+" Student name: "+Student.name+"\nRoll Number: "+s1.rollNum+"\nTotal marks: "+s1.marks);
+        Student s2=new Student();
+        Student.name="Ravi";
+        s2.rollNum=2;
+
+        s2.marks=78.5;
+        System.out.println((i+1)+" Student name: "+Student.name+"\nRoll Number: "+s2.rollNum+"\nTotal marks: "+s2.marks);
+        Student s3=new Student();
+        Student.name="Avinash";
+
+        s3.rollNum=3;
+        s3.marks=90.5;
+        System.out.println((i+2)+" Student name: "+Student.name+"\nRoll Number: "+s3.rollNum+"\nTotal marks: "+s3.marks);
+
+        Student s4=new Student();
+        Student.name="Atul";
+        s4.rollNum=4;
+        s4.marks=85.8;
+        System.out.println((i+3)+" Student name: "+Student.name+"\nRoll Number: "+s4.rollNum+"\nTotal marks: "+s4.marks);
+
+    }
+}
+
+
+
+
+QUESTION 
