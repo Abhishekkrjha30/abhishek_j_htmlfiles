@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weatherApp.css">
+</head>
+
+<body>
+    <!-- parent -->
+    <div class="main">
+    <div class="card">
+        <!-- child1 -->
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button>
+                <img src="./weatherImg/search.png" alt="">
+            </button>
+        </div>
+        <!-- child 2 -->
+        <div class="weather">
+            <!-- kid1 -->
+            <img src="./weatherImg/rain.png" class="weatherimg">
+            <!-- kid2 -->
+            <h1 class="temp content">22°C</h1>
+            <!-- kid3 -->
+            <h2 class="city content">Patna</h2>
+            <!-- kid 4  -->
+            <div class="details">
+                <!-- kidy1 -->
+                <div class="col1">
+                    <img src="./weatherImg/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p class="o">Humidity</p>
+                    </div>
+                </div>
+                <!-- kidy2 -->
+                <div class="col2">
+                    <img src="./weatherImg/wind.png">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p class="o">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+    <script src="weatherApp.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- https://api.openweathermap.org/data/2.5/weather?q=patna&appid=46d04397a371b492c079baa2d04dbc02&units=metric -->
