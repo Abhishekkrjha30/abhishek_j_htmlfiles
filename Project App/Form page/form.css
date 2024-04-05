@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* letter-spacing: 0.2px; */
+
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.main{
+    
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    /* background-color: rgba(00,00,255,0.1); */
+    /* background-position: center;
+    background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-box{
+
+    width: 38%;
+    background-color: white;
+    padding: 4vw;
+    /* text-align: center; */
+    border-radius: 10px;
+    box-shadow: -2px 2px 15px rgba(0,0,0,0.2);
+    
+}
+.form-box h1{
+    color: #4C94F4;
+    font-size: 2vw;
+    margin-top: -4vh;
+    margin-bottom: 4vh;
+}
+.input-field{
+    background-image: linear-gradient(120deg, #cee0fa 0%, #e1f4fc 100%);
+
+    /* background-color: #eaeaea; */
+    margin: 2vh 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.input-field input{
+
+    width: 100%;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    padding: 2.5vh 3vw;
+}
+.input-field i{
+    margin-left: 2vw;
+    color: #999;
+    font-size: 1.5vw;
+
+
+}
+.form-details h3{
+    font-size: 1.5vw;
+}
+.btn{
+
+    width: 100%;
+    background-color:#4C94F4 ;
+    padding: 1.5vh 2vw;
+    border-radius: 8px;
+    margin-top: 4vh ;
+    /* margin-bottom: 2vh; */
+}
+.btn button{
+      border: 0;
+      width: 100%;
+      background-color: transparent;
+      font-size: 1.5vw;
+      font-weight: 600;
+      color: white;
+      cursor: pointer;
+}
+
+
+
+@media (max-width:600px) {
+    
+    .form-box{
+        width: 80%;
+        padding: 6vw;
+        /* text-align: center; */
+        border-radius: 8px;
+        
+    }
+    .form-box h1{
+        font-size: 5.1vw;
+        margin-top: -1vh;
+        margin-bottom: 4vh;
+    }
+    .input-field{    
+        /* background-color: #eaeaea; */
+        height: 6.4vh;
+        margin: 2vh 0;
+        border-radius: 10px;
+       
+    }
+    .input-field input{
+        padding: 2.5vh 3vw;
+    }
+    .input-field i{
+        margin-left: 4vw;
+        font-size: 5vw;
+    }
+    .form-details h3{
+        font-size: 3.6vw;
+    }
+    .btn{
+       
+        border-radius: 6px;
+        margin-top: 4vh ;
+        margin-bottom: 1vh;
+        /* margin-bottom: 2vh; */
+    }
+    .btn button{
+          
+          font-size: 4.4vw;
+          font-weight: 700;
+          letter-spacing: 0.6px;
+    }
+    
+    
+}

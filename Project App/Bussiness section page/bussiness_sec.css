@@ -1,0 +1,156 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+   height: 100%;
+   width: 100%;
+   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+   display: flex;
+   align-items: start;
+   justify-content: center;
+}
+h1{
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.items{
+    height: 80%;
+    width: 50%;
+    /* background-color: rgb(173, 161, 161); */
+}
+.items1{
+    display: none;
+}
+.top-item{
+    height:50%;
+    width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.shop-item{
+    height: 90%;
+    width: 25%;
+    margin-top: 2vh;
+    /* background-color: rgb(193, 192, 192); */
+    background-image: linear-gradient(120deg, #b8cff5 0%, #caecfb 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    box-shadow: -2px 2px 15px rgba(0,0,0,0.2);
+
+}
+.image{
+    height: 70%;
+    width:80%;
+background-image: url("./bussiness_sec_img/Team\ goals-rafiki.png");
+background-position: center;
+background-size: cover;
+    background-color: white;
+    border-radius: 6px;
+}
+.shop-item button{
+    border: 0;
+    background-color: transparent;
+    font-size: 1.4vw;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+.bottom-item{
+
+    height:50%;
+    width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media (max-width:600px) {
+    h1{
+        font-size: 5vw;
+    }
+    .items{
+        display: none;
+        /* background-color: rgb(173, 161, 161); */
+    }
+    .items1{
+        display: block;
+        height: 80%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .top-item{
+        height:30%;
+        width: 100%;
+        /* background-color: azure; */
+        display: flex;
+        
+    
+    }
+    .shop-item{
+        height: 90%;
+        width: 40%;
+        margin-top: 5vh;
+        /* background-color: rgb(193, 192, 192); */
+        background-image: linear-gradient(120deg, #b8cff5 0%, #caecfb 100%);
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 6px;
+        box-shadow: -2px 2px 15px rgba(0,0,0,0.2);
+    
+    }
+    .image{
+        margin-top: 1vh;
+        height: 70%;
+        width:90%;
+    background-image: url("./bussiness_sec_img/Team\ goals-rafiki.png");
+    background-position: center;
+    background-size: cover;
+        background-color: white;
+        border-radius: 6px;
+    }
+    .shop-item button{
+        border: 0;
+        background-color: transparent;
+        font-size: 5vw;
+        font-weight: 700;
+        cursor: pointer;
+        
+    }
+    .mid-item{
+        height:30%;
+        width: 100%;
+        /* background-color: azure; */
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .bottom-item{
+    
+        height:30%;
+        width: 100%;
+        /* background-color: azure; */
+        display: flex;
+    
+    }
+}

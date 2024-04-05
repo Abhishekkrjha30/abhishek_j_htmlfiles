@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    /* background-color: rgba(00,00,255,0.1);
+    background-position: center;
+    background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box{
+    width: 30%;
+    background-color: white;
+    padding: 4vw;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: -2px 2px 15px rgba(0,0,0,0.2);
+    
+
+}
+.form-box h1{
+    color: #4C94F4;
+    font-size: 2vw;
+    margin-bottom: 4vh;
+}
+.input-field{
+     background-color: #eaeaea;
+     margin: 2vh 0;
+     border-radius: 10px;
+     display: flex;
+     align-items: center;
+}
+.input-field input{
+
+    width: 100%;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    padding: 2.5vh 3vw;
+}
+.input-field i{
+     margin-left: 2vw;
+     color: #999;
+
+
+}
+.btn{
+
+    width: 100%;
+    background-color:#4C94F4 ;
+    padding: 1.5vh 2vw;
+    border-radius: 8px;
+    margin-top: 5vh ;
+    /* margin-bottom: 2vh; */
+}
+.btn button{
+      border: 0;
+      width: 100%;
+      background-color: transparent;
+      font-size: 1.5vw;
+      font-weight: 600;
+      color: white;
+      cursor: pointer;
+}
+.input-group{
+    /* height: 280px; */
+}
+.msg{
+    margin-top: 2vh;
+    font-size: 1.2vw;
+}
+.msg a{
+    color:#4C94F4;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3vw;
+}
+
+@media (max-width:600px) {
+    .form-box{
+        width: 80%;    
+    }
+    .form-box h1{
+        font-size: 6vw;
+        margin-bottom: 5vh;
+    }
+    .input-field input{
+        padding: 2vh 3vw;
+    }
+    .btn{
+    
+        width: 100%;
+        background-color:#4C94F4 ;
+        padding: 1.5vh 1.5vw;
+        border-radius: 6px;
+        margin-top: 5vh ;
+        /* margin-bottom: 2vh; */
+    }
+    .btn button{
+          font-size: 4vw;          
+    }
+    .input-group{
+        /* height: 280px; */
+    }
+    .msg{
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+        font-size: 3.2vw;
+    }
+    .msg a{
+        font-size: 3.6vw;
+    }
+    
+}
+
+
+
+
+
+
+
