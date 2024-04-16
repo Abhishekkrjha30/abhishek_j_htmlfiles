@@ -42,6 +42,9 @@ body{
     margin-right: 16px;
     font-size: 18px;
 }
+input::placeholder {
+    font-size: 24px ;
+}
 .search button{    
     border: 0; 
     outline: 0;
